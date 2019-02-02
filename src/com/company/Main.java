@@ -12,6 +12,8 @@ public class Main {
     System.out.println(personalAccountOne.toString());
     personalAccountOne.withdrawMoney(999);
     System.out.println(personalAccountOne.toString());
+    personalAccountOne.getBonus();
+    System.out.println(personalAccountOne.toString());
     personalAccountOne.close();
 
     }

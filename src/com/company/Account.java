@@ -76,4 +76,9 @@ public abstract class Account {
         this.ifOpen = false;
         System.out.println("ACCOUNT CLOSED");
     }
+
+    public void getBonus(){
+        this.amount +=100;
+    }
+
 }
