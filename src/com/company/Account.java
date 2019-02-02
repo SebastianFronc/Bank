@@ -81,9 +81,9 @@ public abstract class Account {
         this.amount +=100;
     }
 
+
     public void changeAccountName(String newAccountName){
         this.nameAccount = newAccountName;
     }
-
 
 }
