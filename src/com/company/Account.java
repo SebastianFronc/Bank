@@ -80,5 +80,5 @@ public abstract class Account {
     public void getBonus(){
         this.amount +=100;
     }
-
+    
 }
