@@ -81,8 +81,14 @@ public abstract class Account {
         this.amount +=100;
     }
 
-    public void denomination(){
-        this.amount = this.amount/(long)1000;
+
+    public void denomination() {
+        this.amount = this.amount / (long) 1000;
+    }
+
+    public void changeAccountName(String newAccountName){
+        this.nameAccount = newAccountName;
+
     }
 
 }
