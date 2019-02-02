@@ -80,5 +80,9 @@ public abstract class Account {
     public void getBonus(){
         this.amount +=100;
     }
-    
+
+    public void denomination(){
+        this.amount = this.amount/(long)1000;
+    }
+
 }
